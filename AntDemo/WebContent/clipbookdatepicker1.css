@@ -1,0 +1,62 @@
+.clipbookday{
+	text-align: left  !important;
+	border: 0px solid #d3d3d3 !important;
+}
+.clipbookday:hover{
+	border: 0px solid #d3d3d3 !important;
+}
+.clipbookcount{
+	width:30px;
+	font-weight: bold;
+}
+.clipbooktd .ui-state-active{
+	background: #787878 !important;
+}
+.dropdown-menu-basic {
+	overflow-y: hidden !important;
+	height: auto !important;
+}
+.clipbooktd{
+	width: 50px !important;
+}
+.dropdown-menu-basic .ui-datepicker-next,.dropdown-menu-basic .ui-datepicker-prev{
+	margin:8px !important;
+}
+.dropdown-menu-basic .ui-datepicker-year,.dropdown-menu-basic .ui-datepicker-month{
+	opacity:0;filter:alpha(opacity=0);
+	-moz-opacity:0;
+	-khtml-opacity: 0;
+	width:100px !important;
+	/* margin-left:-80px !important; */
+	/* background: #d9d9d9 !important; */
+	/* -webkit-border-radius: 3px !important;
+	-moz-border-radius: 3px !important;
+	border-radius: 3px !important;
+	-webkit-border-radius: 5px; */
+	
+	/* border-radius: 5px !important;
+	-moz-border-radius: 5px;
+	border-width: 0px 21px 0px 5px;
+	-webkit-border-image: url("../../images/btn_add_doc_down.gif") 0 21 0 5;
+	-moz-border-image: url("../../images/btn_add_doc_down.gif") 0 21 0 5px; */
+}
+.dropdown-menu-basic .ui-datepicker-year option,.dropdown-menu-basic .ui-datepicker-month option{
+	/* background: white !important; */
+}
+.clipbookselectA{
+	color:grey !important;
+	/* border: 1px solid grey; */
+	float: right;
+	width:20px;
+	background:url("images/btn_add_doc_down.gif") no-repeat;display:inline-block;background-position: center right;
+}
+.clipbookspan{
+	height: 24px;
+	border: 1px solid grey;
+	width: 100px;
+	min-width: 20px;
+	display: inline-block;
+}
+.clipbookul{
+	margin-left:-40px;
+}
